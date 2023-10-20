@@ -1,0 +1,75 @@
+
+.align {
+    display: grid;
+    place-items: center;
+    
+  }
+body {
+    background-color: var(--bodyBackgroundColor);
+    color: var(--bodyColor);
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-block-size: 100vh;
+}
+:root {
+    --baseColor: #606468;
+}
+  
+:root {
+    --htmlFontSize: 100%;
+  
+    --bodyBackgroundColor: #2c3338;
+    --bodyColor: var(--baseColor);
+    --bodyFontFamily: "Open Sans";
+    --bodyFontFamilyFallback: sans-serif;
+    --bodyFontSize: 0.875rem;
+    --bodyFontWeight: 400;
+    --bodyLineHeight: 1.5;
+}
+.container {
+    background-color: rgba(0, 0, 0, 0.199);
+    color: white;
+    width: 400px;
+    height: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+  }
+  
+  .container h2 {
+    text-align: center;
+  }
+  
+  .container form {
+    width: 80%;
+    margin-top: 20px;
+  }
+  
+  .container label, .container input[type="submit"] {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .container input[type="text"],
+  .container input[type="email"],
+  .container input[type="password"] {
+    width: 100%;
+    padding: 5px;
+  }
+  body {
+    background-color: var(--bodyBackgroundColor);
+    color: var(--bodyColor);
+    font-family: var(--bodyFontFamily), var(--bodyFontFamilyFallback);
+    font-size: var(--bodyFontSize);
+    font-weight: var(--bodyFontWeight);
+    line-height: var(--bodyLineHeight);
+    margin: 0;
+    min-block-size: 100vh;
+  }
+  
